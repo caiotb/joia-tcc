@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "joia-web-dotnet-domain/1.0.0": {
+        "runtime": {
+          "joia-web-dotnet-domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "joia-web-dotnet-domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

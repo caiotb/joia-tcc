@@ -1,0 +1,83 @@
+﻿@using X.PagedList.Mvc.Core;
+@using joia_web_dotnet.Models
+@model PecaBuscaPagedList;
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Joia</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+   <style>
+       .busca{ position: relative;
+    width: 60%;
+    height: 49px;
+    left: 20%;
+    top: 70%;
+    background: #E9E9E7;
+    border: none !important;
+    text-align:start;
+    text-indent:1em;
+    border-radius: 21px;
+    margin-bottom: 20px;
+       }
+       .verMais{
+           position: absolute;
+    width: 76px;
+    height: 19px;
+    background: #0FA5D8;
+    border-radius: 17px;
+    border: none !important;
+       }
+
+   </style>
+  <header class="container-fluid fixed-top border-bottom">
+  </header>
+  <main class="container" style=" margin-top: 140px; margin-bottom: 100px; dysplay: flex">
+
+        @Html.TextBoxFor(model => model.Busca, new { placeholder = "Busque sua joia", @class = "busca" }) <br />  
+        <div > 
+        @{
+            
+            foreach(var item in (Model.Peca))
+            {
+                <div class="border-top" style="margin-top: 30px; dysplat:block;">
+                        <img  style="width: 98px;height: 98px;display: inline-block; margin-left: 20px"src="@item.Imagem" />
+                        <div style="display: inline-block">
+                        <p style="font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 13px;line-height: 16px;color: #323232;">@item.Nome</p>
+                        <p style="font-family: 'Inter';font-style: normal;font-weight: 400;font-size: 11px;line-height: 13px;color: #323232;">@item.Preco</p>
+                        <button class="verMais"><div style="color: white; font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 13px;line-height: 16px;">Ver Mais</div></button>
+                        </div>
+                                                            
+                </div>
+            }
+            
+        }
+        </div>
+        <div style="margin-left:40%; margin-top: 20px; color: #0FA5D8;">
+        @Html.PagedListPager(Model.Peca,
+                     pagina => Url.Action("Home", new { pagina }))
+        </div>
+    </main>
+
+     <footer class="border-top footer fixed-bottom " style="border-top-style: solid; background-position: center;
+    background-size: cover;background-color: white;">
+        <div class="container">
+             <img style="width: 16%;height: 56px;" src="~/images/home.png" />
+              <img style="width: 17%;height: 47.02px;"src="~/images/add.png" />
+               <img style="width: 15%;height: 49px;"src="~/images/busca.png" />
+                <img style="width: 15.5%;height: 47px;"src="~/images/relatorio.png" />
+                <img style="width: 15.5%;height: 42px;"src="~/images/registradora.png" />
+                <a href='@Url.Action("Sair", "Home")'>
+            <img style="width: 15%;height: 47px;"src="~/images/logout.png" />
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>  

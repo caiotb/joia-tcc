@@ -1,0 +1,12 @@
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-domain\bin\Debug\net6.0\joia-web-dotnet-domain.deps.json
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-domain\bin\Debug\net6.0\joia-web-dotnet-domain.dll
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-domain\bin\Debug\net6.0\joia-web-dotnet-domain.pdb
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-domain\obj\Debug\net6.0\joia-web-dotnet-domain.csproj.AssemblyReference.cache
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-domain\obj\Debug\net6.0\joia-web-dotnet-domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-domain\obj\Debug\net6.0\joia-web-dotnet-domain.AssemblyInfoInputs.cache
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-domain\obj\Debug\net6.0\joia-web-dotnet-domain.AssemblyInfo.cs
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-domain\obj\Debug\net6.0\joia-web-dotnet-domain.csproj.CoreCompileInputs.cache
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-domain\obj\Debug\net6.0\joia-web-dotnet-domain.dll
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-domain\obj\Debug\net6.0\refint\joia-web-dotnet-domain.dll
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-domain\obj\Debug\net6.0\joia-web-dotnet-domain.pdb
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-domain\obj\Debug\net6.0\ref\joia-web-dotnet-domain.dll

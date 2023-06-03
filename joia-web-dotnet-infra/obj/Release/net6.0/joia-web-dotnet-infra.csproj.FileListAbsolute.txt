@@ -1,0 +1,17 @@
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\bin\Release\net6.0\joia-web-dotnet-infra.deps.json
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\bin\Release\net6.0\joia-web-dotnet-infra.runtimeconfig.json
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\bin\Release\net6.0\joia-web-dotnet-infra.dll
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\bin\Release\net6.0\joia-web-dotnet-infra.pdb
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\bin\Release\net6.0\joia-web-dotnet-domain.dll
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\bin\Release\net6.0\joia-web-dotnet-domain.pdb
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\obj\Release\net6.0\joia-web-dotnet-infra.csproj.AssemblyReference.cache
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\obj\Release\net6.0\joia-web-dotnet-infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\obj\Release\net6.0\joia-web-dotnet-infra.AssemblyInfoInputs.cache
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\obj\Release\net6.0\joia-web-dotnet-infra.AssemblyInfo.cs
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\obj\Release\net6.0\joia-web-dotnet-infra.csproj.CoreCompileInputs.cache
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\obj\Release\net6.0\joia-web-dotnet-infra.csproj.CopyComplete
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\obj\Release\net6.0\joia-web-dotnet-infra.dll
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\obj\Release\net6.0\refint\joia-web-dotnet-infra.dll
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\obj\Release\net6.0\joia-web-dotnet-infra.pdb
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\obj\Release\net6.0\joia-web-dotnet-infra.genruntimeconfig.cache
+C:\Projetos\joia\joia-web-dotnet\joia-web-dotnet-infra\obj\Release\net6.0\ref\joia-web-dotnet-infra.dll

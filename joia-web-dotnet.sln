@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "joia-web-dotnet", "joia-web-dotnet\joia-web-dotnet.csproj", "{C75D19F0-5BAB-42F8-8547-DA05A68A1ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "joia-web-dotnet-infra", "joia-web-dotnet-infra\joia-web-dotnet-infra.csproj", "{A9298017-9026-4FF8-80F7-9D466E8A937D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "joia-web-dotnet-service", "joia-web-dotnet-service\joia-web-dotnet-service.csproj", "{DCF38F2A-0720-466A-A4EA-868EB743AAA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "joia-web-dotnet-domain", "joia-web-dotnet-domain\joia-web-dotnet-domain.csproj", "{D6E49249-E602-4D39-AA49-1DCB97A098AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C75D19F0-5BAB-42F8-8547-DA05A68A1ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75D19F0-5BAB-42F8-8547-DA05A68A1ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75D19F0-5BAB-42F8-8547-DA05A68A1ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75D19F0-5BAB-42F8-8547-DA05A68A1ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9298017-9026-4FF8-80F7-9D466E8A937D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9298017-9026-4FF8-80F7-9D466E8A937D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9298017-9026-4FF8-80F7-9D466E8A937D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9298017-9026-4FF8-80F7-9D466E8A937D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF38F2A-0720-466A-A4EA-868EB743AAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF38F2A-0720-466A-A4EA-868EB743AAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF38F2A-0720-466A-A4EA-868EB743AAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF38F2A-0720-466A-A4EA-868EB743AAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E49249-E602-4D39-AA49-1DCB97A098AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E49249-E602-4D39-AA49-1DCB97A098AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E49249-E602-4D39-AA49-1DCB97A098AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E49249-E602-4D39-AA49-1DCB97A098AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B282EE1D-DC27-470D-AAF8-08129CD18969}
+	EndGlobalSection
+EndGlobal

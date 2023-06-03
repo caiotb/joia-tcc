@@ -1,0 +1,83 @@
+﻿@model joia_web_dotnet.Models.UserModel;
+
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Joia</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+     
+<body>
+    <style>
+        .acessar {
+        position: absolute;
+        width: 60%;
+        height: 47px;
+        left: 20%;
+        top: 380px;
+        border: none !important;
+        background: #0FA5D8;
+        border-radius: 21px;
+}
+    .usuario{
+        position: absolute;
+        width: 60%;
+        height: 47px;
+        left: 20%;
+        top: 240px;
+        text-align:start;
+        text-indent:1em;
+        border: none !important;;
+        background: #E9E9E7;
+        border-radius: 21px;
+    }
+    .senha{
+        position: absolute;
+        width: 60%;
+        height: 47px;
+        left: 20%;
+        top: 310px;
+        text-align:start;
+        text-indent:1em;
+        border: none !important;
+        background: #E9E9E7;
+        border-radius: 21px;
+    }
+    </style>
+    <header class="container-fluid fixed-top">
+    </header>
+
+    <main class="content-wrapper main-content clear-fix">
+
+        @using(Html.BeginForm("Autenticacao", "Home", FormMethod.Post, new { autocomplete="off" })){
+      
+        @Html.TextBoxFor(x=>x.NomeUsuario, new { placeholder = "Usuário", @class = "usuario", @required  = "required" }) <br />
+
+        @Html.PasswordFor(x=>x.Senha, new { placeholder = "Senha", @class = "senha", @required  = "required"} ) <br />
+
+        <button class="acessar" type="submit"><div style="color: white">Acessar</div></button>
+        }
+           @if (!string.IsNullOrEmpty(ViewBag.Erro))
+        {
+        <div style="color:red;font-weight:100; position: absolute; left: 80px;
+        top: 450px;">
+            @ViewBag.Erro.ToString()
+        </div>
+    }
+
+
+    </main>
+
+     <footer class="border-top footer " style="border-top-style: solid">
+        <div class="container" style="color: #A0A0A0; font-size: 13px; text-align: center">
+            Não tenho uma conta. Toque aqui para criar uma agora.
+        </div>
+    </footer>
+
+</body>
+
+</html>  
+
